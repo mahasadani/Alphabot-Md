@@ -18,7 +18,7 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 
 // Other
-global.botname = "QueenXBOT" //namabot kalian
+global.botname = "© QueenX BOTོ" //namabot kalian
 global.ownername= "Mahasa Dani Dwi Saputra" //nama kalian
 global.myweb ="https://api-alphabot.herokuapp.com/" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
@@ -31,8 +31,8 @@ global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder i
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6283181666729","6285215078490","6289524474104"] //ganti agar fitur owner bisa di gunakan
-global.packname = 'QueenXBOT' //sticker wm ubah
-global.author = 'Di Buat Oleh Mahasa Dani Dwi Saputra' //sticker wm ganti nama kalian
+global.packname = '© QueenX BOTོ' //sticker wm ubah
+global.author = 'Di Buat Mahasa Dani Dwi Saputra' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
