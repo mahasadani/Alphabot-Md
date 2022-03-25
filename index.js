@@ -96,7 +96,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, store) => {
         const args = body.trim().split(/ +/).slice(1)
         const pushname = m.pushName || "No Name"
         const sender = m.isGroup ? (mek.key.participant ? mek.key.participant : mek.participant) : mek.key.remoteJid
-        const isCreator = [kick = false return reply ("Tidak Bisa Kick Owner"),alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const isCreator = [kick = false,alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == alpha.user.id ? true : false
         const text = q = args.join(" ")
         const c = args.join(' ')
@@ -1241,6 +1241,7 @@ break
             break
             case 'kick': {
 				if (!m.isGroup) return reply(lang.groupOnly())
+		if (!isCreator) return reply("Tidak Bisa Kick Owner")
                 if (!isBotAdmins) return reply(lang.botNotAdmin())
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
                 if (!m.quoted && !text) return reply(`Kirim nomer/tag/reply target yang ingin di kick !`)
