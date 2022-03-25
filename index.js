@@ -97,7 +97,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, store) => {
         const pushname = m.pushName || "No Name"
         const sender = m.isGroup ? (mek.key.participant ? mek.key.participant : mek.participant) : mek.key.remoteJid
         const isCreator = [alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-	const isCreator1 == isCreator = kick = false
+              isCreator == kick = false
         const itsMe = m.sender == alpha.user.id ? true : false
         const text = q = args.join(" ")
         const c = args.join(' ')
