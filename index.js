@@ -1241,7 +1241,7 @@ break
             break
             case 'kick': {
 				if (!m.isGroup) return reply(lang.groupOnly())
-		if (!m.key.fromMe && !isCreator) return reply('Tidak Bisa Kick Owner') Kick = false
+		if (!m.key.fromMe && !isCreator) Kick = false return reply('Tidak Bisa Kick Owner')
                 if (!isBotAdmins) return reply(lang.botNotAdmin())
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
                 if (!m.quoted && !text) return reply(`Kirim nomer/tag/reply target yang ingin di kick !`)
