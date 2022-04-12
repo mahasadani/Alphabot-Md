@@ -790,6 +790,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├ Mahasa Dani Dwi Saputra
 ├ Penyedia Module
 ╰❒ And All Support
     `
@@ -1464,6 +1465,7 @@ exports.tqto = () =>{
 ├ Nurutomo
 ├ Rashid
 ├ ZeeoneOfc
+├ Mahasa Dani Dwi Saputra
 ├ Penyedia Module
 ╰❒ And All Support
 `
